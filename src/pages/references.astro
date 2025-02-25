@@ -1,0 +1,90 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="References - Wage Gap">
+	<h2>References</h2>
+			<div class="content">
+				asaniczka. (n.d.). Gender Wage Gap in the USA (1973-2022). kaggle.com. Retrieved December 1, 2024, from https://www.kaggle.com/datasets/asaniczka/gender-wage-gap-in-the-usa-1973-2022?resource=download
+Bhandari, P. (2020, September 25). How to Find Interquartile Range (IQR) | Calculator & Examples. Scribbr. Retrieved July 2, 2024, from https://www.scribbr.com/statistics/interquartile-range/
+Closing the Gender Pay Gap. (2024, March 14). Center for American Progress. Retrieved October 16, 2024, from https://www.americanprogress.org/article/playbook-for-the-advancement-of-women-in-the-economy/closing-the-gender-pay-gap/
+Earnings Disparities by Race and Ethnicity. (n.d.). U.S. Department of Labor. Retrieved November 13, 2024, from https://www.dol.gov/agencies/ofccp/about/data/earnings/race-and-ethnicity
+Kahn, L. M. (n.d.). Wage compression and the gender pay gap. IZA World of Labor. Retrieved October 16, 2024, from https://wol.iza.org/articles/wage-compression-and-gender-pay-gap/long
+Kochhar, R. (2023, March 1). The Gender Wage Gap Endures in the U.S. Pew Research Center. Retrieved June 28, 2024, from https://www.pewresearch.org/social-trends/2023/03/01/the-enduring-grip-of-the-gender-pay-gap/
+Rasure, E. (n.d.). Gender and Income Inequality: History and Statistics. Investopedia. Retrieved December 1, 2024, from https://www.investopedia.com/history-gender-wage-gap-america-5074898
+
+			</div>
+</Layout>
+
+<style>
+	h1{
+		color: rgb(var(--red));
+	}
+	h2{
+		color: rgb(var(--brun));
+	}
+	h3{
+		color: rgb(var(--accent-dark));
+	}
+	h4{
+		color: rgb(var(--brun-light));
+	}
+	.content {
+		margin-top: 1rem;
+		line-height: 1.6;
+	}
+	.float-img {
+		float: left;
+		margin: 0 15px 10px 0; /* Adjusts space around the image */
+	} 
+	.content {
+		overflow: hidden; /* Clears floating issues */
+	}
+	.navigation {
+		margin-top: 2rem;
+		display: flex;
+		justify-content: space-between;
+	}
+	.nav-button {
+		padding: 0.5rem 1rem;
+		background-color: rgb(var(--red));
+		color: white;
+		text-decoration: none;
+		border-radius: 4px;
+	}
+	.nav-button:hover {
+		background-color: rgb(var(--brun));
+	}
+	.prev {
+		margin-right: auto;
+	}
+	.next {
+		margin-left: auto;
+	}
+	.flashcard-container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+		justify-content: center;
+		margin-top: 2rem;
+	}
+	.quiz-calculator-container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 2rem;
+		margin-top: 2rem;
+	}
+	.quiz-section, .calculator-section {
+		flex: 1;
+		min-width: 300px;
+	}
+	.calculator-container {
+		margin-top: 1rem;
+		width: 100%;
+	}
+	@media (max-width: 768px) {
+		.quiz-calculator-container {
+			flex-direction: column;
+		}
+	}
+</style>
