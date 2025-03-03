@@ -25,6 +25,7 @@ const { questions, shortAnswerQuestions } = Astro.props;
     {questions.length > 0 && (
       <div class="multiple-choice">
         <h3>Multiple Choice Questions</h3>
+        <h4>Answer all questions to proceed.</h4>
         {questions.map((q, index) => (
           <div class="question" data-correct={q.correctAnswer}>
             <h4>Question {index + 1}</h4>
