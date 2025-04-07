@@ -3,10 +3,13 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="CMJ - Wage Gap">
-	<h1>Welcome to our project!</h1>
-	<img src="/images/cmj.png" alt={`statpage2`} class="float-img" width=200px/>
-	<p>CMJ's mission:</p>
-	<p>We aim to bring antiracist assessment and measurement practices to all learners across the nation. Our work is to inspire, prepare, and support a critical mass of measurement professionals and partners as they work towards a socially just assessment and measurement system.</p>	<div class="navigation">
+	<h1>All about the Wage Gap!</h1>
+	<img src="/images/logo.png" alt={`statpage2`} class="float-img">
+	<p>Topic introduction:</p>
+	<p>The racial and gender wage gap has been a prominent issue throughout the history of the U.S. , and is still an incredibly pressing issue in today’s society. Wage gap is defined as the difference in earnings between two or more groups of people. Today, we will be exploring the wage gap based on race and also the wage gap based on gender.</p>
+	<p>The wage gap mainly occurs when people do the same amount of work and have the same amount of qualifications, yet get paid differently solely based on their identity.</p>
+	<p>We can see this in the gender and race wage gaps. It is proven through many studies that women are often paid less than men even when they have the same skills and work experience (Kochhar, 2023). In addition to gender, race also plays a huge factor in the wage gap. Asian people are shown to make the highest income on average, whereas Hispanic people make the least. This is due to stereotypes between races and prejudice against someone</p>
+	</p>
 	<a href="/page/1" class="next-button">Start Reading</a>
 	<p> Hit start reading to begin... </p>
 	</div>
@@ -16,6 +19,11 @@ import Layout from '../layouts/Layout.astro';
 	h1 {
 		color: rgb(var(--brun));
 	}
+		.float-img {
+		float: left;
+		margin: 0 15px 10px 0;
+		border-radius:5%;
+	} 
 	.navigation {
 		margin-top: 2rem;
 		text-align: right;
